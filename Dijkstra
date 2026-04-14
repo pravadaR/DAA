@@ -1,0 +1,8 @@
+#include<iostream>    //allows cin cout 
+#include<climits>     //give access to INT_MAX (the largest possible int value, used as "infinity")
+using namespace std;  //for not writing std::cout, std::cin every time
+
+#define MAX 100  //sets a constant MAX=100, meaning our graph can have at most 100 vertices
+#define INF INT_MAX //INF is just a shorthand for "infinity"
+
+  int graph 
